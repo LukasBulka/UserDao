@@ -19,7 +19,8 @@ CRUD operations:
   * email
   * password
 
-## Technologies used
+## Technologies and tools used
 * JDBC
 * MySQL
 * JBCrypt
+* InteliJ IDEA
