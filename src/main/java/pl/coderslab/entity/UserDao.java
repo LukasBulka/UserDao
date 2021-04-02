@@ -1,5 +1,6 @@
 package pl.coderslab.entity;
 
+import dbUtil.DBUtil;
 import org.mindrot.jbcrypt.BCrypt;
 
 import java.sql.*;
@@ -25,8 +26,7 @@ public class UserDao
 
 
 
-    public String hashPassword(String password)
-    {
+    public String hashPassword(String password) {
         return BCrypt.hashpw(password, BCrypt.gensalt());
     }
 

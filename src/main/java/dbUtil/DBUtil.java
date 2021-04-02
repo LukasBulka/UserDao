@@ -1,4 +1,4 @@
-package pl.coderslab.entity;
+package dbUtil;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
